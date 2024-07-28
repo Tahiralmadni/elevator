@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="elevator-container">
+        <div class="elevator">
+            <div class="elevator-door"></div>
+            <div class="elevator-door"></div>
+            <div class="elevator-inside">
+                <div class="floor" id="floor1">1</div>
+                <div class="floor" id="floor2">2</div>
+                <div class="floor" id="floor3">3</div>
+            </div>
+        </div>
+        <div class="controls">
+            <button onclick="moveToFloor(1)">Floor 1</button>
+            <button onclick="moveToFloor(2)">Floor 2</button>
+            <button onclick="moveToFloor(3)">Floor 3</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
